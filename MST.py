@@ -13,15 +13,6 @@ inputArr = [
  [0, 0, 0, 14, 4, 26, 0]
 ]
 
-tsp = [
- [0, 2, 3, 20, 1],
- [2, 0, 15, 2, 20],
- [3, 15, 0, 20, 13],
- [20, 2, 20, 0, 9],
- [1, 20, 13, 9, 0],
-]
-
-
 def Prims(G):
 
     # Stores MST
@@ -64,6 +55,5 @@ def Prims(G):
 
     return results
 
-
-print(Prims(inputArr))
-# print(Prims(tsp))
+print("Input: " , inputArr)
+print("Result: " , Prims(inputArr))
